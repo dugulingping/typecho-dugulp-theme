@@ -198,7 +198,7 @@ blockquote {
 	font-weight: 300;
 	line-height: 1.2em;
 	font-style: italic;
-	border-left: .5em solid rgba(0,0,0,.05);
+	border-left: .5em solid rgba(255,255,255,.12);
 	margin-left: 1em;
 	padding-left: 1em
 }
@@ -519,13 +519,16 @@ table td {
 	padding: .5em
 }
 
-table thead {
-	font-weight: 600;
-	border-bottom: 1px solid #ecf0f1
+table thead tr th {
+    border: 1px solid #fff;
 }
 
-table tbody tr:nth-child(even) {
-	background-color: #ecf0f1;
+table thead {
+	font-weight: 600;
+}
+
+table tbody tr {
+	background-color: #000;
 	border-top: 1px solid #e3e9eb;
 	border-bottom: 1px solid #e3e9eb
 }

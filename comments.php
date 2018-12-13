@@ -32,7 +32,7 @@
     		</p>
             <?php endif; ?>
     		<p>
-                <textarea rows="8" cols="50" name="text" id="textarea" class="textarea"  style="filter:alpha(opacity:50); opacity:0.5;border-color:#95a5a6" placeholder="<?php _e('内容'); ?>"  required ><?php $this->remember('text'); ?></textarea>
+                <textarea rows="8" cols="50" name="text" id="textarea" class="code-pre-debug textarea"  style="filter:alpha(opacity:50); opacity:0.5;border-color:#95a5a6" placeholder="<?php _e('内容'); ?>"  required ><?php $this->remember('text'); ?></textarea>
             </p>
     		<p>
                 <input type="checkbox" name="receiveMail" id="receiveMail" value="yes" checked /> <label for="receiveMail" style="padding-left:8px;">当有人回复时接收邮件提醒<br />

@@ -78,6 +78,12 @@ h1.post-title a:focus, h1.post-title a:hover, h1.blog-title a:focus, h1.blog-tit
 	font-weight: bold
 }
 
+.code-pre-debug{
+	width: 100%;
+    overflow: auto;
+    word-break: break-all;
+}
+
 .logoimg {
 	text-align: center;
 	width: 500px;

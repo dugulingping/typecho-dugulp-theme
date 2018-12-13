@@ -63,12 +63,6 @@ pre {
 	background-color: rgba(0,0,0,.05)
 }
 
-p code {
-	font-family: Consolas,Courier,monospace;
-	font-size: .8em;
-	line-height: 1.2em
-}
-
 h1 {
 	color: #151515;
 	font-family: "Roboto Slab",Merriweather,"Open Sans","Helvetica Neue",Helvetica,Arial,"Nimbus L",sans-serif;

@@ -2,6 +2,12 @@ a, a:visited {
 	color: #3498db;
 }
 
+section a {
+    width: 100%;
+    overflow: auto;
+    word-break: break-all;
+}
+
 .pagination a {
 	color: #3498db;
 }
@@ -76,6 +82,13 @@ h1.post-title a:focus, h1.post-title a:hover, h1.blog-title a:focus, h1.blog-tit
 
 .hljs-strong {
 	font-weight: bold
+}
+
+article p code {
+	font-family: Consolas,Courier,monospace;
+	font-size: .22em;
+	line-height: 1.22em;
+	color: #C13;
 }
 
 .code-pre-debug{

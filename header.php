@@ -49,13 +49,8 @@
 
             <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
             <?php while($pages->next()): ?>
-                <li>|</li>
+            <li>|</li>
         	<li class="nav nav-current"><a <?php if($this->is('page', $pages->slug)): ?><?php endif; ?> href="<?php $pages->permalink(); ?>"><?php $pages->title(); ?></a></li>
-
-            <?php endwhile; ?>
-
-                <li>|</li>
-<li class="nav nav-current"><a href="/feed/">rss</a></li>
-      	
+			<?php endwhile; ?>	  
     </ul>
 </nav>

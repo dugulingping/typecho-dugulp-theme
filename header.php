@@ -16,12 +16,12 @@
     <?php $this->header('generator=&template=&pingback=&xmlrpc=&wlw=&atom='); ?>
     <!-- RSS autodiscovery -->
     <link rel="shortcut icon" href="<?php $this->options->ico(); ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('img/normalize.min.css'); ?>">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css">
     <!-- Stylesheets -->
-    <link rel='stylesheet' href="<?php $this->options->themeUrl('img/font.min'.'-'.$themes_style.'.css'); ?>"/>
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('img/default.min.css'); ?>">
+    <link  rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="<?php $this->options->themeUrl('img/default.min.css'); ?>">
+	<link rel='stylesheet' href="<?php $this->options->themeUrl('img/font.min'.'-'.$themes_style.'.css'); ?>"/>
     <link rel="stylesheet" href="<?php $this->options->themeUrl('img/prism.css'); ?>">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Stylesheet for theme color -->
 </head>
 

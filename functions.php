@@ -21,8 +21,8 @@ if (preg_match_all($pattern, $widget->content, $thumbUrl)) {
 
 function themeConfig($form) {
 
-        $Compress= new Typecho_Widget_Helper_Form_Element_Radio('Compress',
-        array('able' => _t('启用'),
+    $Compress= new Typecho_Widget_Helper_Form_Element_Radio('Compress',
+		array('able' => _t('启用'),
             'disable' => _t('禁止'),
         ),
         'disable', _t('是否启用HTML代码压缩功能'), _t('默认禁止，启用则会gzip压缩HTML代码'));
@@ -50,6 +50,9 @@ function themeConfig($form) {
 
     $ico = new Typecho_Widget_Helper_Form_Element_Text('ico', NULL, NULL, _t('你的ico图标地址【必填】'), _t('在这里填入你的ICO图标地址，若没有你可以自行制作ico图标后放到站点根目录，在此处填入链接即可'));
     $form->addInput($ico);
+	
+	$cdn_link = new Typecho_Widget_Helper_Form_Element_Text('cdn_link', NULL, _t("%s","123"), _t('你的cdn地址'), _t('在这里填入你的ICO图标地址，若没有请不要修改~'));
+    $form->addInput($cdn_link);
 }
 
 function compressHtml($html_source) {

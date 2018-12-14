@@ -21,14 +21,14 @@
 	</div>
 </footer>
 
-<script src="https://yiyeti.oss-cn-shanghai.aliyuncs.com/usr/uploads/jquery.min.js"></script>
-<script src="<?php $this->options->themeUrl('img/default.min.js'); ?>"></script>
-<script src="<?php $this->options->themeUrl('img/highlight.min.js'); ?>"></script>
-<script src="<?php $this->options->themeUrl('img/prism.js'); ?>"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.13.1/highlight.min.js"></script>
 <?php if ($this->options->Instantclick == 'able'): ?>
-<script src="<?php $this->options->themeUrl('img/instantclick.min.js'); ?>" data-no-instant></script>
+<script src="https://cdn.bootcss.com/instantclick/3.0.1/instantclick.min.js" data-no-instant></script>
 <script data-no-instant>InstantClick.init();</script>
 <?php endif; ?>
+<script src="<?php $this->options->themeUrl('img/default.min.js'); ?>"></script>
+<script src="<?php $this->options->themeUrl('img/prism.js'); ?>"></script>
 </body>
 </html>
 <?php if ($this->options->Compress == 'able'): ?>

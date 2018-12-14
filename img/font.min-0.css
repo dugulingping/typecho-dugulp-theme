@@ -1,7 +1,5 @@
 @import url("css-subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed-300-Open+Sans-400,600,400italic,600italic-Merriweather-400,300,300italic,400italic,700,700italic-Roboto+Slab-400,300.css")/*tpa=https://fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:400,600,400italic,600italic|Merriweather:400,300,300italic,400italic,700,700italic|Roboto+Slab:400,300*/;
 
-@import url("font-awesome.css")/*tpa=https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css*/;
-
 body {
 	background-color: #fff;
 	font-size: 15px;

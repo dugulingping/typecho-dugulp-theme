@@ -3,8 +3,8 @@
  * 这是一...哦不两款极简的单栏Typecho主题。<br />由veryse主题改写
  * @package dugulp-rand-black-and-white Theme 
  * @author 独孤伶俜
- * @version 1.3
- * @link https://blog.i-em.me/
+ * @version 1.5
+ * @link https://blog.icyuya.net/
  *
  */
 

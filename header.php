@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css">
     <!-- Stylesheets -->
     <link  rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.0.3/css/font-awesome.min.css">
-	<link rel="stylesheet" href="<?php $this->options->themeUrl('img/default.min.css'); ?>">
-	<link rel='stylesheet' href="<?php $this->options->themeUrl('img/font.min'.'-'.$themes_style.'.css'); ?>"/>
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('img/prism.css'); ?>">
+	<link rel="stylesheet" href="<?php echo $this->options->cdn_link.'/default.min.css';?>">
+	<link rel='stylesheet' href="<?php echo $this->options->cdn_link.'/font.min'.'-'.$themes_style.'.css';?>"/>
+    <link rel="stylesheet" href="<?php echo $this->options->cdn_link.'/prism.css'; ?>">
     <!-- Stylesheet for theme color -->
 </head>
 
@@ -29,7 +29,7 @@
 
     <header id="site-head">
         <a id="blog-logo" href="<?php $this->options->siteUrl(); ?>">
-            <div class="bloglogo" style="background: url(<?php $this->options->themeUrl('/img/logo'.'-'.$themes_style.'.png'); ?>);background-repeat:no-repeat;"></div></a>
+            <div class="bloglogo" style="background: url(<?php echo $this->options->cdn_link.'/logo'.'-'.$themes_style.'.jpg'; ?>);background-repeat:no-repeat;"></div></a>
     </header>
 
     

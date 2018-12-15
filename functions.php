@@ -12,13 +12,18 @@ function showThumbnail($widget)
     
 if (preg_match_all($pattern, $widget->content, $thumbUrl)) {
          echo $thumbUrl[1][0];
-    } else     if ($attach->isImage) {
+    } else if ($attach->isImage) {
       echo $attach->url; 
     } else {
         echo $random;
     }
 }
-
+//获取cdn地址,不得已这样做(′д｀ )…typecho好像是先载入模板文件再载入配置的。。。。
+//发现显示不全的，去后台"外观设置" 把最后一项恢复默认就好啦
+function GetCdnLink() {
+	return Helper::options()->originalSiteUrl.'/usr/themes/typecho-dugulp-theme/img';
+}
+//主题配置
 function themeConfig($form) {
 
     $Compress= new Typecho_Widget_Helper_Form_Element_Radio('Compress',
@@ -51,7 +56,7 @@ function themeConfig($form) {
     $ico = new Typecho_Widget_Helper_Form_Element_Text('ico', NULL, NULL, _t('你的ico图标地址【必填】'), _t('在这里填入你的ICO图标地址，若没有你可以自行制作ico图标后放到站点根目录，在此处填入链接即可'));
     $form->addInput($ico);
 	
-	$cdn_link = new Typecho_Widget_Helper_Form_Element_Text('cdn_link', NULL, _t("%s","123"), _t('你的cdn地址'), _t('在这里填入你的ICO图标地址，若没有请不要修改~'));
+	$cdn_link = new Typecho_Widget_Helper_Form_Element_Text('cdn_link', NULL, GetCdnLink(), _t('你的cdn地址'), _t('在这里填入你的cdn地址，默认值：'.Helper::options()->themeUrl.'/img'." (如果模板显示错误请恢复默认值~)"));
     $form->addInput($cdn_link);
 }
 

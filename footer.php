@@ -14,7 +14,7 @@
       
   </section>
 
-		<section class="copyright">自豪的采用typecho | themes by <a rel="license" href="http://www.cyuyan.xyz/">独孤伶俜</a>
+		<section class="copyright">自豪的采用typecho | themes by <a rel="license" href="http://blog.icyuyan.net">独孤伶俜</a>
 			<br>
 			<br />本站原创作品采用<br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a><br />进行许可
 		</section>
@@ -27,8 +27,8 @@
 <script src="https://cdn.bootcss.com/instantclick/3.0.1/instantclick.min.js" data-no-instant></script>
 <script data-no-instant>InstantClick.init();</script>
 <?php endif; ?>
-<script src="<?php $this->options->themeUrl('img/default.min.js'); ?>"></script>
-<script src="<?php $this->options->themeUrl('img/prism.js'); ?>"></script>
+<script src="<?php echo $this->options->cdn_link.'/default.min.js';?>"></script>
+<script src="<?php echo $this->options->cdn_link.'/prism.js';?>"></script>
 </body>
 </html>
 <?php if ($this->options->Compress == 'able'): ?>

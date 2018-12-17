@@ -86,8 +86,7 @@ h1.post-title a:focus, h1.post-title a:hover, h1.blog-title a:focus, h1.blog-tit
 
 article p code {
 	font-family: Consolas,Courier,monospace;
-	font-size: .22em;
-	line-height: 1.22em;
+	font-size: 1.12em;
 	color: #C13;
 }
 

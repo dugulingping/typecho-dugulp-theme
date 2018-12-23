@@ -7,7 +7,7 @@
 				<a href="/feed/" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
 			</section>
 			<section class="copyright">
-				Powered By Typecho|themes by <a rel="license" href="http://blog.icyuyan.net">独孤伶俜</a>
+				自豪的采用Typecho|theme by <a rel="license" href="http://blog.icyuyan.net">独孤伶俜</a>
 				<br /><br />
 				本站原创作品采用<br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a><br />进行许可
 			</section>
@@ -18,7 +18,6 @@
 	<?php if ($this->options->Instantclick == 'able'): ?>
 	<script src="https://cdn.bootcss.com/instantclick/3.0.1/instantclick.min.js" data-no-instant></script>
 	<script data-no-instant>InstantClick.init();</script><?php endif; ?>
-	<script src="<?php echo $this->options->cdn_link.'/default.min.js';?>"></script>
 	<script src="<?php echo $this->options->cdn_link.'/prism.js';?>"></script>
 	<?php $this->footer(); ?>
 </body>

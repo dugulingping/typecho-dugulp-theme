@@ -291,11 +291,14 @@ footer section {
 	color: #95a5a6;
 }
 
-footer.post-footer {
-	background: 0 0;
-	border-top: 1px solid #ecf0f1;
-	margin-top: 1em
+.post-footer {
+    background: 0 0;
+    border-top: 1px solid #ecf0f1;
+    border-bottom: 1px solid #ecf0f1;
+    margin-top: 1em;
+    text-align: unset;
 }
+
 
 nav {
 	border-bottom: 1px solid #ecf0f1;

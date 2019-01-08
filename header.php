@@ -19,7 +19,7 @@
 		<link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css">
 		<!-- Stylesheets -->
 		<link  rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.0.3/css/font-awesome.min.css">
-		<link rel="stylesheet" href="<?php echo $this->options->cdn_link.'/default.min.css';?>">
+		<link rel="stylesheet" href="<?php echo $this->options->cdn_link.'/public.min.css';?>">
 		<link rel='stylesheet' href="<?php echo $this->options->cdn_link.'/font.min'.'-'.$themes_style.'.css';?>"/>
 		<link rel="stylesheet" href="<?php echo $this->options->cdn_link.'/prism.css'; ?>">
 		<!-- Stylesheet for theme color -->

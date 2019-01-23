@@ -19,7 +19,12 @@
 	<script src="https://cdn.bootcss.com/instantclick/3.0.1/instantclick.min.js" data-no-instant></script>
 	<script data-no-instant>InstantClick.init();</script><?php endif; ?>
 	<script src="<?php echo $this->options->cdn_link.'/prism.js';?>"></script>
+	<script src="<?php echo $this->options->cdn_link.'/public.min.js';?>"></script>
 	<?php $this->footer(); ?>
+	<!--返回顶部-->
+	<div id="return-top" class="back-top">
+		<a data-scroll href="#site-head"> <i class="fa fa-lg fa-chevron-circle-up fa-4x" id="img"></i></a>
+	</div>
 </body>
 </html>
 <?php if ($this->options->Compress == 'able'): ?>

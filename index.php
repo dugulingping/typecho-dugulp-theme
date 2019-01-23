@@ -20,7 +20,7 @@
 		<article class="preview">
 			<header>
 				<h1 class="post-title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h1>
-				<div class="post-meta"><?php $this->author->screenName(); ?> on <?php $this->category(','); ?> | <time datetime="<?php $this->date('c'); ?>"><?php $this->date('F j, Y'); ?></time></div>
+				<div class="post-meta"><time datetime="<?php $this->date('c'); ?>"><?php $this->date('F j, Y'); ?></time> on <?php $this->category(','); ?></div>
 			</header>
 			<section class="post-excerpt">
 				<p><?php $this->excerpt(130, '...'); ?></p>

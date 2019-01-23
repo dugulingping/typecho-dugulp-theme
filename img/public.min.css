@@ -101,3 +101,43 @@ article p code {
 	width: 500px;
 	border: green solid 1px;
 }
+
+section.hitokoto {
+	border-top: 1px solid #ecf0f1;
+	text-align: center;
+}
+.back-top{
+    position:fixed;
+	right:10px;
+	bottom:20px;
+    border-radius:15px;
+    cursor:pointer;
+    display:none;
+}
+footer {
+	margin: 4em 0 0;
+	padding: 2em 0;
+	text-align: center;
+}
+
+footer section {
+	font-family: "Open Sans Condensed","Open Sans","Helvetica Neue",Helvetica,Arial,"Nimbus L",sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin: 0 auto;
+	max-width: 600px;
+	text-transform: uppercase;
+	width: 90%;
+	color: #95a5a6;
+}
+
+.post-footer {
+    background: 0 0;
+    border-top: 1px solid #ecf0f1;
+    border-bottom: 1px solid #ecf0f1;
+    margin-top: 1em;
+    text-align: unset;
+}
+
+
+	

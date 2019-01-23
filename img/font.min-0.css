@@ -133,56 +133,6 @@ header.article-header,header.page-header {
 	margin-bottom: 3em
 }
 
-section.author,section.share {
-	width: 100%;
-	text-align: left;
-	text-transform: none
-}
-
-section.share {
-	margin-top: 1em;
-	border-top: 1px solid #ecf0f1;
-	padding-top: 1em;
-	text-align: right
-}
-
-section.author h4,section.author p,section.share p {
-	padding: 0;
-	margin: 0
-}
-
-section.author h4 {
-	font-family: "Roboto Slab",Merriweather,"Open Sans","Helvetica Neue",Helvetica,Arial,"Nimbus L",sans-serif;
-	font-weight: 400;
-	margin-bottom: 4px
-}
-
-section.author p.attr,section.share p.info {
-	font-size: 16px;
-	line-height: 20px;
-	text-transform: uppercase;
-	font-family: "Open Sans Condensed","Open Sans","Helvetica Neue",Helvetica,Arial,"Nimbus L",sans-serif
-}
-
-section.share p.info.prompt {
-	top: -5px;
-	position: relative
-}
-
-section.author p.attr {
-	margin-bottom: 2px
-}
-
-section.share p.info {
-	display: inline-block
-}
-
-section.author p.bio {
-	font-size: 16px;
-	margin-left: 82px;
-	line-height: 1.4em
-}
-
 blockquote {
 	font-family: "Open Sans Condensed","Open Sans","Helvetica Neue",Helvetica,Arial,"Nimbus L",sans-serif;
 	font-size: 1.2em;
@@ -253,10 +203,6 @@ section.preview.archive h2 {
 	text-align: left
 }
 
-section.author {
-	overflow: hidden
-}
-
 img.userimage {
 	width: 70px;
 	max-width: 70px;
@@ -264,31 +210,6 @@ img.userimage {
 	border-radius: 50%;
 	margin-right: 10px;
 	float: left
-}
-
-footer {
-	background: rgba(0,0,0,.05);
-	margin: 4em 0 0;
-	padding: 2em 0;
-	text-align: center
-}
-
-footer section {
-	font-family: "Open Sans Condensed","Open Sans","Helvetica Neue",Helvetica,Arial,"Nimbus L",sans-serif;
-	font-weight: 300;
-	font-size: 18px;
-	margin: 0 auto;
-	max-width: 600px;
-	text-transform: uppercase;
-	width: 90%
-}
-
-.post-footer {
-    background: 0 0;
-    border-top: 1px solid #ecf0f1;
-    border-bottom: 1px solid #ecf0f1;
-    margin-top: 1em;
-    text-align: unset;
 }
 
 nav {

@@ -23,7 +23,7 @@
 
     </section>
 	<section class="hitokoto">
-		<p class="hitokoto-data">一言预留位</p>
+        <p id="hitokoto"><a href="#" id="hitokoto_text">获取中...</a></p>
 	</section>
 
 	<footer class="post-footer">

@@ -7,9 +7,11 @@
 				<a href="/feed/" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
 			</section>
 			<section class="copyright">
-				自豪的采用Typecho|theme by <a rel="license" href="http://blog.icyuyan.net">独孤伶俜</a>
+				自豪的采用<a rel="license" href="http://typecho.org/">Typecho</a>|theme by <a rel="license" href="http://blog.icyuyan.net">独孤伶俜</a>
 				<br /><br />
-				本站原创作品采用<br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a><br />进行许可
+				本站原创作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>进行许可
+				<br />
+				<a rel="icp" href="https://beian.miit.gov.cn"><?php echo $this->options->icp_link; ?></a>
 			</section>
 		</div>
 	</footer>
@@ -20,6 +22,8 @@
 	<script data-no-instant>InstantClick.init();</script><?php endif; ?>
 	<script src="<?php echo $this->options->cdn_link.'/prism.js';?>"></script>
 	<script src="<?php echo $this->options->cdn_link.'/public.min.js';?>"></script>
+	
+	<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
 	<?php $this->footer(); ?>
 	<!--返回顶部-->
 	<div id="return-top" class="back-top">

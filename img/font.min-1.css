@@ -339,7 +339,7 @@ a.archive-link {
 }
 
 .newer-posts:hover,.older-posts:hover {
-	color: #02090e;
+	color: #95a5a6;
 	text-decoration: none
 }
 
@@ -394,7 +394,6 @@ a.archive-link {
 
 .icon-feed,.icon-ghost {
 	font-family: icons;
-	speak: none;
 	font-style: normal;
 	font-weight: 400;
 	font-variant: normal;
@@ -575,5 +574,4 @@ p.backtotop {
 	text-align: center;
 	width: 500px;
 	border: green solid 1px;
-}
 }

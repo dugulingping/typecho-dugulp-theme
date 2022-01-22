@@ -58,6 +58,9 @@ function themeConfig($form) {
 	
 	$cdn_link = new Typecho_Widget_Helper_Form_Element_Text('cdn_link', NULL, GetCdnLink(), _t('你的cdn地址'), _t('在这里填入你的cdn地址，默认值：'.Helper::options()->themeUrl.'/img'." (如果模板显示错误请恢复默认值~)"));
     $form->addInput($cdn_link);
+
+    $icp_link = new Typecho_Widget_Helper_Form_Element_Text('icp_link', NULL, NULL, _t('你的ICP备案号'), _t('在这里填入你的ICP备案号，默认不填为不显示ICP备案标注'));
+    $form->addInput($icp_link);
 }
 
 function compressHtml($html_source) {

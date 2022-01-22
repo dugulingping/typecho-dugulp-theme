@@ -13,21 +13,21 @@
     		<p><?php _e('登录身份: '); ?><a href="<?php $this->options->profileUrl(); ?>"><?php $this->user->screenName(); ?></a>. <a href="<?php $this->options->logoutUrl(); ?>" title="Logout"><?php _e('退出'); ?> &raquo;</a></p>
             <?php else: ?>
     		<p>
-    			<input type="text" name="author" id="author" class="text" style="filter:alpha(opacity:50); opacity:0.5;border-color:#95a5a6" placeholder="<?php _e('昵称(必填)'); ?>" value="<?php $this->remember('author'); ?>" required />
+    			<input type="text" name="author" id="author" class="text" style="filter:alpha(opacity:50); opacity:0.4;" placeholder="<?php _e('昵称(必填)'); ?>" value="<?php $this->remember('author'); ?>" required />
     		</p>
     		<p>
-    			<input type="email" name="mail" id="mail" class="text" style="filter:alpha(opacity:50); opacity:0.5;border-color:#95a5a6" placeholder="<?php _e('邮箱(必填)'); ?>" value="<?php $this->remember('mail'); ?>"<?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?> />
+    			<input type="email" name="mail" id="mail" class="text" style="filter:alpha(opacity:50); opacity:0.4;" placeholder="<?php _e('邮箱(必填)'); ?>" value="<?php $this->remember('mail'); ?>"<?php if ($this->options->commentsRequireMail): ?> required<?php endif; ?> />
     		</p>
     		<p>
-    			<input type="url" name="url" id="url" class="text" style="filter:alpha(opacity:50); opacity:0.5;border-color:#95a5a6" placeholder="<?php _e('主页 http(s)://'); ?>" value="<?php $this->remember('url'); ?>"<?php if ($this->options->commentsRequireURL): ?> required<?php endif; ?> />
+    			<input type="url" name="url" id="url" class="text" style="filter:alpha(opacity:50); opacity:0.4;" placeholder="<?php _e('主页 http(s)://'); ?>" value="<?php $this->remember('url'); ?>"<?php if ($this->options->commentsRequireURL): ?> required<?php endif; ?> />
     		</p>
             <?php endif; ?>
     		<p>
-                <textarea rows="8" cols="50" name="text" id="textarea" class="code-pre-debug textarea"  style="filter:alpha(opacity:50); opacity:0.5;border-color:#95a5a6" placeholder="<?php _e('什么 Σ(っ °Д °;)っ！大佬发现有bug！'); ?>"  required ><?php $this->remember('text'); ?></textarea>
+                <textarea rows="8" cols="50" name="text" id="textarea" class="code-pre-debug textarea"  style="filter:alpha(opacity:50); opacity:0.4;" placeholder="<?php _e('什么 Σ(っ °Д °;)っ！大佬发现有bug！'); ?>"  required ><?php $this->remember('text'); ?></textarea>
             </p>
     		<p>
                 <input type="checkbox" name="receiveMail" id="receiveMail" value="yes" checked /> <label for="receiveMail" style="padding-left:8px;">当有人回复时接收邮件提醒<br />
-                <button type="submit" class="submit"  style="filter:alpha(opacity:80); opacity:0.8;border-color:#95a5a6"><?php _e('发射评论'); ?></button>
+                <button type="submit" class="submit"  style="filter:alpha(opacity:80); opacity:0.8;"><?php _e('发射评论'); ?></button>
             </p>
     	</form>
     </div>
